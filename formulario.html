@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <title>My test page</title>
+ </head>
+ <body>
+    <form action="post">
+        <fieldset>
+            <legend>Valoración de producto</legend>
+            <div>
+                <label for="zipcode">Código postal</label>
+                <input type="text" id="zipcode">
+            </div>
+
+            <div>
+                <label for="satisfaccion">Nivel de satisfacción con el producto</label>
+                <select name="satisfaccion" id="satisfaccion">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div>
+                <label for="positivo">Puntos positivos del producto</label>
+                <textarea name="positivo" id="positivo" cols="30" rows="10"></textarea>
+            </div>
+
+            <div>
+                <label for="negativo">Puntos negativos del producto</label>
+                <textarea name="negativo" id="negativo" cols="30" rows="10"></textarea>
+            </div>
+
+            <div>
+                <label for="caracteristicas">Características</label>
+                <select name="duracion" id="caracteristicas">
+                    <option value="1">Excelente</option>
+                    <option value="2">Bueno</option>
+                    <option value="3">Regular</option>
+                    <option value="4">Pésimo</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="caract2">Características 2</label>
+                <input type="checkbox" name="" id="caract2"> Excelente
+                <input type="checkbox" name="" id="caract2"> Bueno
+                <input type="checkbox" name="" id="caract2"> Regular
+                <input type="checkbox" name="" id="caract2"> Pésimo
+
+            </div>
+
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+    </fieldset>
+    </form>
+ </body>
+</html>
